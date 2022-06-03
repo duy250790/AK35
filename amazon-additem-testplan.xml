@@ -1,0 +1,17 @@
+<suite name = "amazon">
+
+    <test name = "add item to cart - chrome">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "testsuite.amazon.AddItemTest" />
+        </classes>
+    </test>
+<!--    <test name = "create account - safari">-->
+<!--        <parameter name = "browser" value = "safari"/>-->
+<!--        <classes>-->
+<!--            <class name = "testsuite.amazon.SingUpTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+</suite>

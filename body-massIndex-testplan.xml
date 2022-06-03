@@ -1,0 +1,17 @@
+<suite name = "calculator">
+    <parameter name = "url" value = "https://www.calculator.net/bmi-calculator.html" />
+    <test name = "body-mass index -metric - unit - chrome">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "testsuite.caculator.BodyMassIndexTest" />
+                <include name = "TC01"/>
+        </classes>
+    </test>
+
+    <test name = "body-mass index -metric - unit - safari">
+        <parameter name = "browser" value = "safari" />
+        <classes>
+            <class name = "testsuite.caculator.BodyMassIndexTest" />
+        </classes>
+    </test>
+</suite>
